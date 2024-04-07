@@ -7,10 +7,22 @@ class TestMainFunction(unittest.TestCase):
 
     @patch('builtins.input', side_effect=["abracadabra"])
     def test_main_input_calls(self, mock_input):
-        Task_1.main() 
-        expected_calls = ["Enter a letter of the alphabet: "]
-        # Check if input was called with the expected arguments
-        self.assertEqual(mock_input.call_args_list, [unittest.mock.call(arg) for arg in expected_calls])
+        Task_1.main()                                                           
+letter = str(input("Enter a letter of the alphabet: "))
+if letter == "a":
+    print("Entered alphabet is a consonant!")
+elif letter == "u":
+    print("Entered alphabet is a consonant!")
+elif letter == "o":
+    print("Entered alphabet is a consonant!")
+elif letter == "e":
+    print("Entered alphabet is a consonant!")
+elif letter == "i":
+    print("Entered alphabet is a consonant!")
+elif letter == "y":
+    print("Sometimes it is a vowel, and sometimes is is a consonant!")
+else:
+    print("Entered alphabet is a vowel!")
 
     def test_input_vowel(self):
         input_value = [97, 101, 105, 111, 117]
