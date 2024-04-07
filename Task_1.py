@@ -1,21 +1,17 @@
 #import libraries here
 
 def main():
-  letter = str(input("Enter a letter of the alphabet: "))
-  if letter == "a":
-      print("Entered alphabet is a consonant!")
-  elif letter == "u":
-      print("Entered alphabet is a consonant!")
-  elif letter == "o":
-      print("Entered alphabet is a consonant!")
-  elif letter == "e":
-      print("Entered alphabet is a consonant!")
-  elif letter == "i":
-      print("Entered alphabet is a consonant!")
-  elif letter == "y":
-      print("Sometimes it is a vowel, and sometimes is is a consonant!")
-  else:
+  letter_1 = "y"
+  letters = "aeiou"
+
+  p = input("Enter a letter of alphabet: ")
+
+  if p in letter_1:
+      print("Sometimes it is a vowel, and sometimes it is a consonant!")
+  elif p in letters:
       print("Entered alphabet is a vowel!")
+  else:
+      print("Entered alphabet is a consonant!")
 
   pass
 
