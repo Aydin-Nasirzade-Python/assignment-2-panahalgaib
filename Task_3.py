@@ -15,7 +15,7 @@ def main():
   elif p>=620 and p<=750:
       print("The relevant color is Red")
   else:
-      print("Invalid input")
+      print("Invalid input!")
   pass
 
 if __name__ == "__main__":
