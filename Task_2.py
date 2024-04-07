@@ -5,7 +5,7 @@ def main():
   b="JulyAugust"
   c="OctoberNovember"
   k=input("Enter name of the month [ex. June]: ")    
-  t=int(input("Enter the day: "))
+  t=int(input("Enter the day [ex. 5]: "))
   if k=="March" and t>=20 or k=="June" and t<21 or k in a:
       print(f"{k} {t} is in Spring")
   elif k=="June" and t>=21 or k=="September" and t<22 or k in b:
