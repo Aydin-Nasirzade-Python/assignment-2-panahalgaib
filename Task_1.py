@@ -1,7 +1,7 @@
 #import libraries here
 
 def main():
- letter_1 = "y"
+letter_1 = "y"
 letters = "aeiou"
 
 p = input("Enter a letter of alphabet: ")
