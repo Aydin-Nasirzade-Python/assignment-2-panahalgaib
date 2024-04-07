@@ -5,29 +5,29 @@ def main():
   if p<0:
       print("Invalid year!")
   elif p==2000 or (abs(p-2000))%12==0:
-      print("p is the year of Dragon")
+      print("p is the year of the Dragon")
   elif  p==2001 or (abs(p-2001))%12==0:
-      print("p is the year of Snake")
+      print("p is the year of the Snake")
   elif p==2002 or (abs(p-2002))%12==0:
-      print("p is the year of Horse")
+      print("p is the year of the Horse")
   elif p==2003 or (abs(p-2003))%12==0:
-      print("p is the year of Sheep")
+      print("p is the year of the Sheep")
   elif p==2004 or (abs(p-2004))%12==0:
-      print("p is the year of Monkey")
+      print("p is the year of the Monkey")
   elif p==2005 or (abs(p-2005))%12==0:
-      print("p is the year of Rooster")
+      print("p is the year of the Rooster")
   elif p==2006 or (abs(p-2006))%12==0:
-      print("p is the year of Dog")
+      print("p is the year of the Dog")
   elif p==2007 or (abs(p-2007))%12==0:
-      print("p is the year of Pig")
+      print("p is the year of the Pig")
   elif p==2008 or (abs(p-2008))%12==0:
-      print("p is the year of Rat")
+      print("p is the year of the Rat")
   elif p==2009 or (abs(p-2009))%12==0:
-      print("p is the year of Ox")
+      print("p is the year of the Ox")
   elif p==2010 or (abs(p-2010))%12==0:
-      print("p is the year of Tiger") 
+      print("p is the year of the Tiger") 
   else:
-      print("p is the year of Hare")
+      print("p is the year of the Hare")
   pass
 
 if __name__ == "__main__":
