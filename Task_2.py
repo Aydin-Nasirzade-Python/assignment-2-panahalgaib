@@ -10,7 +10,7 @@ def main():
       print(f"{k} {t} is in Spring")
   elif k=="June" and t>=21 or k=="September" and t<22 or k in b:
       print(f"{k} {t} is in Summer")
-  elif k=="September" and t>=22 or k=="December" and t<=21 or k in c:
+  elif k=="September" and t>=22 or k=="December" and t<21 or k in c:
       print(f"{k} {t} is in Fall")
   else:
       print(f"{k} {t} is in Winter") 
